@@ -1,0 +1,30 @@
+{
+  "name": "mail-app",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "dropbox": "^4.0.30",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.15",
+    "net": "^1.0.2",
+    "tls": "0.0.1",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "webpack --config webpack-dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitalii-levkovskyi/mail-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitalii-levkovskyi/mail-app/issues"
+  },
+  "homepage": "https://github.com/vitalii-levkovskyi/mail-app#readme"
+}
