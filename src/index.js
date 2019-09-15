@@ -2,9 +2,9 @@
 import { Dropbox } from 'dropbox';
 
 function init(){
-    const TOKEN = document.getElementById('token').value;
 
     document.getElementById('update').addEventListener('click', function () {
+        const TOKEN = document.getElementById('token').value;
         console.log(TOKEN);
         var dbx = new Dropbox({ accessToken: TOKEN});
         dbx.filesListFolder({path: ''})
