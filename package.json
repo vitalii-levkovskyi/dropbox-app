@@ -6,7 +6,7 @@
   "dependencies": {
     "dropbox": "^4.0.30",
     "fs": "0.0.1-security",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "net": "^1.0.2",
     "tls": "0.0.1",
     "webpack": "^4.40.2",
